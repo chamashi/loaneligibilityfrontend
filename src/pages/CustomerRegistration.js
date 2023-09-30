@@ -108,7 +108,7 @@ function CustomerRegistration() {
       <div className="container mt-4">
         <form onSubmit={handleSubmit} className="mt-4">
           <div className="form-group">
-            <label htmlFor="email">Email:</label>
+            <label htmlFor="email">Email</label>
             <input
               type="email"
               id="email"
@@ -117,12 +117,12 @@ function CustomerRegistration() {
               onChange={handleInputChange}
               className="form-control"
               required
-              placeholder="Enter Email"
+              placeholder="Enter your Email"
             />
           </div>
 
           <div className="form-group">
-            <label htmlFor="name">Name:</label>
+            <label htmlFor="name">Name</label>
             <input
               type="text"
               id="name"
@@ -131,12 +131,12 @@ function CustomerRegistration() {
               onChange={handleInputChange}
               className="form-control"
               required
-              placeholder="Enter Name"
+              placeholder="Enter your Name"
             />
           </div>
 
           <div className="form-group">
-            <label htmlFor="password">Password:</label>
+            <label htmlFor="password">Password</label>
             <input
               type="password"
               id="password"
@@ -151,7 +151,7 @@ function CustomerRegistration() {
           </div>
 
           <div className="form-group">
-            <label htmlFor="confirmPassword">Confirm Password:</label>
+            <label htmlFor="confirmPassword">Confirm Password</label>
             <input
               type="password"
               id="confirmPassword"
