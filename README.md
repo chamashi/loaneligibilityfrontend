@@ -1,4 +1,4 @@
-# Getting Started with Loan Eligibility prediction frontend
+Loan Eligibility prediction frontend
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
