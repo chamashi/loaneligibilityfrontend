@@ -1,0 +1,118 @@
+/* LoanForm.css */
+body{
+    background: #fff;;
+}
+
+  .form-groups {
+    margin-bottom: 10px;
+    margin-left: 50px;
+  }
+
+  .form-control {
+    width: 400px;
+    padding-left: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  select.form-control {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="20" height="20"><path d="M2 20l30 32 30-32H2z" fill="#333" /></svg>') no-repeat right 10px center/20px;
+    padding: 12px 30px 12px 10px; /* Adjust padding as needed */
+    border: 1px solid rgb(239, 220, 220);
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+   
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .alert {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .alert-success {
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #d6e9c6;
+  }
+  
+  .alert-danger {
+    background-color: #f2dede;
+    color: #a94442;
+    border: 1px solid #ebccd1;
+  }
+
+.reset-button {
+    background-color: #ccc;
+    color: #333;
+    border: 1px solid #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 30px; /* Add margin to separate it from the "Predict Loan Eligibility" button */
+  }
+  
+  .reset-button:hover {
+    background-color: #999;
+    color: #fff;
+    border-color: #999;
+  }
+  /* CSS for Success Message */
+.success-message {
+  color: #008000; /* Green color for success messages */
+  background-color: #d4edda; /* Light green background color */
+  border: 1px solid #c3e6cb; /* Green border */
+  padding: 10px; /* Padding for the message */
+  margin-top: 10px; /* Spacing from elements above */
+  text-align: center; /* Center-align the message text */
+}
+
+/* CSS for Error Message */
+.error-message {
+  color: #721c24; /* Red color for error messages */
+  background-color: #f8d7da; /* Light red background color */
+  border: 1px solid #f5c6cb; /* Red border */
+  padding: 10px; /* Padding for the message */
+  margin-top: 10px; /* Spacing from elements above */
+  text-align: center; /* Center-align the message text */
+}
+
+  
+  /* Media query for small screens */
+  @media (max-width: 768px) {
+    .form-group {
+      margin-bottom: 10px;
+    }
+  
+    .form-control {
+      padding: 8px;
+    }
+  
+    select.form-control {
+      background-size: 16px;
+      padding-right: 24px;
+    }
+  
+    .btn-primary {
+      padding: 8px 16px;
+    }
+  }
+  

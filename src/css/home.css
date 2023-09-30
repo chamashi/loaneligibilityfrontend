@@ -1,0 +1,72 @@
+.home-page {
+  background-color: #fdfcfd; /* Replace with your desired background color */
+  height: 100vh; /* Ensure the background color fills the entire viewport height */
+}
+
+  .navbar {
+    background-image: linear-gradient(to left,#ff105f,#ff3385,#ffff4d, #ffad06); /* Linear gradient background color for the navbar */
+  }
+  
+  .hero-section {
+    background-color: #fdfcfd; 
+    padding: 50px 0;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .hero-section h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    color:  #ff8c1a; 
+    
+  }
+  
+  .hero-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #070600;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .feature {
+    margin-bottom: 20px;
+  }
+  
+  .feature-icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 10px;
+    fill: #cc0052;
+  }
+  
+  .feature-icon:hover {
+    fill: #ffad06; /* Darker gold hover color */
+  }
+  
+  .feature h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #030303; 
+  }
+  
+  .feature p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #cc5200; 
+    font-weight: bolder;
+  }
+  
+  .btn-primary {
+    background-color: #0073ff; /* Gold button color */
+    border-color: #051ed8; /* Gold button border color */
+    color: #fff; /* White button text color */
+  }
+  
+  .btn-primary:hover {
+    background-color: #4bb5fd; 
+    border-color: #25acd9; 
+  }
+  

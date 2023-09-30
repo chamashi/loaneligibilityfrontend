@@ -1,0 +1,76 @@
+/* Login.css */
+.login-body {
+  background: url('../assets/loan3.jpg') center/cover no-repeat; 
+  height: 65vh; /* Ensure the background covers the entire viewport height */
+}
+
+  .container {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 100px;
+    margin-left: 500px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333; /* Header text color */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Label text color */
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333; /* Input text color */
+  }
+  
+  .btn btn-primary {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+   
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+  }
+  
+  .success-message {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #dff0d8; /* Success message background color */
+    color: #3c763d; /* Success message text color */
+    border: 1px solid #d6e9c6;
+  }
+  
+  .error-message {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f2dede; /* Error message background color */
+    color: #a94442; /* Error message text color */
+    border: 1px solid #ebccd1;
+  }
+  
