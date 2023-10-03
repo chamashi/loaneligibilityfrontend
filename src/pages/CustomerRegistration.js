@@ -92,11 +92,6 @@ function CustomerRegistration() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="btn btn-dark" to="/register" style={{ marginRight: '10px' }}>
-                Register
-              </Link>
-            </li>
-            <li className="nav-item">
               <Link className="btn btn-dark" to="/login" style={{ marginRight: '10px' }}>
                 Login
               </Link>
@@ -108,6 +103,7 @@ function CustomerRegistration() {
       <div className="container mt-4">
         <form onSubmit={handleSubmit} className="mt-4">
           <div className="form-group">
+          <h2>Sign Up </h2>
             <label htmlFor="email">Email</label>
             <input
               type="email"
@@ -166,8 +162,8 @@ function CustomerRegistration() {
           </div>
 
           <div className="form-group">
-            <button type="submit" className="btn btn-primary">
-              Register
+            <button type="submit" className="btn btn-primary" style={{ marginLeft: '150px' }}>
+              Sign Up
             </button>
           </div>
         </form>

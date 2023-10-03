@@ -41,9 +41,10 @@ function Login() {
       });
 
       if (response.status === 200) {
-        setSuccessMessage('Login successful');
+        setSuccessMessage('');
         setErrorMessage('');
         navigate('/loanform');
+        alert('Login successful'); // Display the login successful alert
       } else {
         setErrorMessage('Invalid email or password');
         setSuccessMessage('');
@@ -86,7 +87,7 @@ function Login() {
               />
             </div>
             <div className="form-group">
-              <button type="submit" className="btn btn-primary">
+              <button type="submit" className="btn btn-primary" style={{ marginLeft: '150px' }}>
                 Login
               </button>
             </div>
@@ -94,7 +95,7 @@ function Login() {
           {successMessage && <div className="success-message">{successMessage}</div>}
           {errorMessage && <div className="error-message">{errorMessage}</div>}
           <div className="form-group">
-            <Link to="/register">Not Registered yet? </Link>
+            <Link to="/register" style={{ marginLeft: '150px' }}>Not Registered yet? </Link>
           </div>
         </div>
       </div>

@@ -78,7 +78,7 @@ function LoanForm() {
       if (response.status === 200) {
         // Logout successful, show success message and redirect to home page
         setSuccessMessage('Logged out successfully');
-        console.log('Logout successful'); 
+        alert('Logged out successfully'); // Display the logout successful alert
         navigate('/');
       } else {
         setError('Error: ' + response.statusText);

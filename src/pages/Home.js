@@ -32,7 +32,7 @@ function Home() {
             </li>
             <li className="nav-item">
               <Link className="btn btn-dark" to="/register" style={{ marginRight: '10px' }}>
-                Register
+                Sign Up
               </Link>
             </li>
           </ul>

@@ -13,6 +13,7 @@
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     text-align: center;
+    background-image: linear-gradient(to left,#f6ab76,#ffff4d, #fdaf14);
   }
   
   h2 {
@@ -24,6 +25,7 @@
     margin-bottom: 20px;
     text-align: left;
     margin-left: 10px;
+    
   }
   
   label {
@@ -35,10 +37,10 @@
   .input-field {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(158, 157, 157);
     border-radius: 5px;
     font-size: 16px;
-    color: #333; /* Input text color */
+    color: rgb(3, 3, 3); /* Input text color */
   }
   
   .btn btn-primary {
